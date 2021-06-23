@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		EEA81A312683A3DC00D327D9 /* Voronoi_Zones_2D_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A302683A3DC00D327D9 /* Voronoi_Zones_2D_Main.cpp */; };
+		EEA81A412683A86E00D327D9 /* Framework_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A382683A86E00D327D9 /* Framework_Parameters.cpp */; };
+		EEA81A422683A86E00D327D9 /* Print_Info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A392683A86E00D327D9 /* Print_Info.cpp */; };
+		EEA81A432683A86E00D327D9 /* Read_Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A3A2683A86E00D327D9 /* Read_Input.cpp */; };
+		EEA81A442683A86E00D327D9 /* Read_Framework_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A3C2683A86E00D327D9 /* Read_Framework_Parameters.cpp */; };
+		EEA81A452683A86E00D327D9 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A3D2683A86E00D327D9 /* Input.cpp */; };
+		EEA81A482683AE6C00D327D9 /* Initialise_Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A472683AE6C00D327D9 /* Initialise_Cell.cpp */; };
+		EEA81A4D2683AEBB00D327D9 /* Transformation_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A492683AEBB00D327D9 /* Transformation_Matrix.cpp */; };
+		EEA81A4E2683AEBB00D327D9 /* Frac_To_Cart_Coords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A4A2683AEBB00D327D9 /* Frac_To_Cart_Coords.cpp */; };
+		EEA81A512683AF1D00D327D9 /* Voronoi_Zone_Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A502683AF1D00D327D9 /* Voronoi_Zone_Algorithm.cpp */; };
+		EEA81A642683B00C00D327D9 /* Triangulate_Zones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A522683B00B00D327D9 /* Triangulate_Zones.cpp */; };
+		EEA81A652683B00C00D327D9 /* Generate_Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A542683B00C00D327D9 /* Generate_Square.cpp */; };
+		EEA81A662683B00C00D327D9 /* Max_Distance_To_Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A572683B00C00D327D9 /* Max_Distance_To_Polygon.cpp */; };
+		EEA81A672683B00C00D327D9 /* Max_Radius_Of_Space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A5B2683B00C00D327D9 /* Max_Radius_Of_Space.cpp */; };
+		EEA81A682683B00C00D327D9 /* Dividing_Space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A5D2683B00C00D327D9 /* Dividing_Space.cpp */; };
+		EEA81A692683B00C00D327D9 /* Divide_Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A5E2683B00C00D327D9 /* Divide_Polygon.cpp */; };
+		EEA81A6A2683B00C00D327D9 /* Line_Intersect_Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A5F2683B00C00D327D9 /* Line_Intersect_Polygon.cpp */; };
+		EEA81A6B2683B00C00D327D9 /* Removing_Polygons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A602683B00C00D327D9 /* Removing_Polygons.cpp */; };
+		EEA81A6C2683B00C00D327D9 /* Surrounding_Cloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A622683B00C00D327D9 /* Surrounding_Cloud.cpp */; };
+		EEA81A6F2683B07500D327D9 /* Compute_Voronoi_Zones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A6E2683B07500D327D9 /* Compute_Voronoi_Zones.cpp */; };
+		EEA81A722683B0A300D327D9 /* B_Poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A702683B0A300D327D9 /* B_Poly.cpp */; };
+		EEA81A7B2683B12200D327D9 /* Colour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A732683B12200D327D9 /* Colour.cpp */; };
+		EEA81A7C2683B12200D327D9 /* Scale_Drawing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A762683B12200D327D9 /* Scale_Drawing.cpp */; };
+		EEA81A7D2683B12200D327D9 /* Draw_Voronoi_Zones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A772683B12200D327D9 /* Draw_Voronoi_Zones.cpp */; };
+		EEA81A7E2683B12200D327D9 /* Bounding_Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA81A782683B12200D327D9 /* Bounding_Box.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +49,54 @@
 /* Begin PBXFileReference section */
 		EEA81A2D2683A3DC00D327D9 /* Voronoi_Zones_2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Voronoi_Zones_2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA81A302683A3DC00D327D9 /* Voronoi_Zones_2D_Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Voronoi_Zones_2D_Main.cpp; sourceTree = "<group>"; };
+		EEA81A372683A86E00D327D9 /* Framework_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framework_Parameters.h; sourceTree = "<group>"; };
+		EEA81A382683A86E00D327D9 /* Framework_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Framework_Parameters.cpp; sourceTree = "<group>"; };
+		EEA81A392683A86E00D327D9 /* Print_Info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Print_Info.cpp; sourceTree = "<group>"; };
+		EEA81A3A2683A86E00D327D9 /* Read_Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Read_Input.cpp; sourceTree = "<group>"; };
+		EEA81A3B2683A86E00D327D9 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		EEA81A3C2683A86E00D327D9 /* Read_Framework_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Read_Framework_Parameters.cpp; sourceTree = "<group>"; };
+		EEA81A3D2683A86E00D327D9 /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		EEA81A3E2683A86E00D327D9 /* Read_Framework_Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Read_Framework_Parameters.h; sourceTree = "<group>"; };
+		EEA81A3F2683A86E00D327D9 /* Read_Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Read_Input.h; sourceTree = "<group>"; };
+		EEA81A402683A86E00D327D9 /* Print_Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print_Info.h; sourceTree = "<group>"; };
+		EEA81A462683AE6C00D327D9 /* Initialise_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initialise_Cell.h; sourceTree = "<group>"; };
+		EEA81A472683AE6C00D327D9 /* Initialise_Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Initialise_Cell.cpp; sourceTree = "<group>"; };
+		EEA81A492683AEBB00D327D9 /* Transformation_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transformation_Matrix.cpp; sourceTree = "<group>"; };
+		EEA81A4A2683AEBB00D327D9 /* Frac_To_Cart_Coords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Frac_To_Cart_Coords.cpp; sourceTree = "<group>"; };
+		EEA81A4B2683AEBB00D327D9 /* Frac_To_Cart_Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frac_To_Cart_Coords.h; sourceTree = "<group>"; };
+		EEA81A4C2683AEBB00D327D9 /* Transformation_Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transformation_Matrix.h; sourceTree = "<group>"; };
+		EEA81A4F2683AF1D00D327D9 /* Voronoi_Zone_Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voronoi_Zone_Algorithm.h; sourceTree = "<group>"; };
+		EEA81A502683AF1D00D327D9 /* Voronoi_Zone_Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Voronoi_Zone_Algorithm.cpp; sourceTree = "<group>"; };
+		EEA81A522683B00B00D327D9 /* Triangulate_Zones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangulate_Zones.cpp; sourceTree = "<group>"; };
+		EEA81A532683B00B00D327D9 /* Dividing_Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dividing_Space.h; sourceTree = "<group>"; };
+		EEA81A542683B00C00D327D9 /* Generate_Square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Generate_Square.cpp; sourceTree = "<group>"; };
+		EEA81A552683B00C00D327D9 /* Max_Distance_To_Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Max_Distance_To_Polygon.h; sourceTree = "<group>"; };
+		EEA81A562683B00C00D327D9 /* Removing_Polygons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Removing_Polygons.h; sourceTree = "<group>"; };
+		EEA81A572683B00C00D327D9 /* Max_Distance_To_Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Max_Distance_To_Polygon.cpp; sourceTree = "<group>"; };
+		EEA81A582683B00C00D327D9 /* Surrounding_Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surrounding_Cloud.h; sourceTree = "<group>"; };
+		EEA81A592683B00C00D327D9 /* Line_Intersect_Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line_Intersect_Polygon.h; sourceTree = "<group>"; };
+		EEA81A5A2683B00C00D327D9 /* Triangulate_Zones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangulate_Zones.h; sourceTree = "<group>"; };
+		EEA81A5B2683B00C00D327D9 /* Max_Radius_Of_Space.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Max_Radius_Of_Space.cpp; sourceTree = "<group>"; };
+		EEA81A5C2683B00C00D327D9 /* Generate_Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generate_Square.h; sourceTree = "<group>"; };
+		EEA81A5D2683B00C00D327D9 /* Dividing_Space.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dividing_Space.cpp; sourceTree = "<group>"; };
+		EEA81A5E2683B00C00D327D9 /* Divide_Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Divide_Polygon.cpp; sourceTree = "<group>"; };
+		EEA81A5F2683B00C00D327D9 /* Line_Intersect_Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line_Intersect_Polygon.cpp; sourceTree = "<group>"; };
+		EEA81A602683B00C00D327D9 /* Removing_Polygons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Removing_Polygons.cpp; sourceTree = "<group>"; };
+		EEA81A612683B00C00D327D9 /* Max_Radius_Of_Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Max_Radius_Of_Space.h; sourceTree = "<group>"; };
+		EEA81A622683B00C00D327D9 /* Surrounding_Cloud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surrounding_Cloud.cpp; sourceTree = "<group>"; };
+		EEA81A632683B00C00D327D9 /* Divide_Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divide_Polygon.h; sourceTree = "<group>"; };
+		EEA81A6D2683B07500D327D9 /* Compute_Voronoi_Zones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compute_Voronoi_Zones.h; sourceTree = "<group>"; };
+		EEA81A6E2683B07500D327D9 /* Compute_Voronoi_Zones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Compute_Voronoi_Zones.cpp; sourceTree = "<group>"; };
+		EEA81A702683B0A300D327D9 /* B_Poly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = B_Poly.cpp; sourceTree = "<group>"; };
+		EEA81A712683B0A300D327D9 /* B_Poly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B_Poly.h; sourceTree = "<group>"; };
+		EEA81A732683B12200D327D9 /* Colour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Colour.cpp; sourceTree = "<group>"; };
+		EEA81A742683B12200D327D9 /* Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colour.h; sourceTree = "<group>"; };
+		EEA81A752683B12200D327D9 /* Draw_Voronoi_Zones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw_Voronoi_Zones.h; sourceTree = "<group>"; };
+		EEA81A762683B12200D327D9 /* Scale_Drawing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scale_Drawing.cpp; sourceTree = "<group>"; };
+		EEA81A772683B12200D327D9 /* Draw_Voronoi_Zones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Draw_Voronoi_Zones.cpp; sourceTree = "<group>"; };
+		EEA81A782683B12200D327D9 /* Bounding_Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bounding_Box.cpp; sourceTree = "<group>"; };
+		EEA81A792683B12200D327D9 /* Scale_Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale_Drawing.h; sourceTree = "<group>"; };
+		EEA81A7A2683B12200D327D9 /* Bounding_Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bounding_Box.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +129,54 @@
 		EEA81A2F2683A3DC00D327D9 /* Voronoi_Zones_2D */ = {
 			isa = PBXGroup;
 			children = (
+				EEA81A702683B0A300D327D9 /* B_Poly.cpp */,
+				EEA81A712683B0A300D327D9 /* B_Poly.h */,
+				EEA81A782683B12200D327D9 /* Bounding_Box.cpp */,
+				EEA81A7A2683B12200D327D9 /* Bounding_Box.h */,
+				EEA81A732683B12200D327D9 /* Colour.cpp */,
+				EEA81A742683B12200D327D9 /* Colour.h */,
+				EEA81A6E2683B07500D327D9 /* Compute_Voronoi_Zones.cpp */,
+				EEA81A6D2683B07500D327D9 /* Compute_Voronoi_Zones.h */,
+				EEA81A5E2683B00C00D327D9 /* Divide_Polygon.cpp */,
+				EEA81A632683B00C00D327D9 /* Divide_Polygon.h */,
+				EEA81A5D2683B00C00D327D9 /* Dividing_Space.cpp */,
+				EEA81A532683B00B00D327D9 /* Dividing_Space.h */,
+				EEA81A772683B12200D327D9 /* Draw_Voronoi_Zones.cpp */,
+				EEA81A752683B12200D327D9 /* Draw_Voronoi_Zones.h */,
+				EEA81A4A2683AEBB00D327D9 /* Frac_To_Cart_Coords.cpp */,
+				EEA81A4B2683AEBB00D327D9 /* Frac_To_Cart_Coords.h */,
+				EEA81A382683A86E00D327D9 /* Framework_Parameters.cpp */,
+				EEA81A372683A86E00D327D9 /* Framework_Parameters.h */,
+				EEA81A542683B00C00D327D9 /* Generate_Square.cpp */,
+				EEA81A5C2683B00C00D327D9 /* Generate_Square.h */,
+				EEA81A472683AE6C00D327D9 /* Initialise_Cell.cpp */,
+				EEA81A462683AE6C00D327D9 /* Initialise_Cell.h */,
+				EEA81A3D2683A86E00D327D9 /* Input.cpp */,
+				EEA81A3B2683A86E00D327D9 /* Input.h */,
+				EEA81A5F2683B00C00D327D9 /* Line_Intersect_Polygon.cpp */,
+				EEA81A592683B00C00D327D9 /* Line_Intersect_Polygon.h */,
+				EEA81A572683B00C00D327D9 /* Max_Distance_To_Polygon.cpp */,
+				EEA81A552683B00C00D327D9 /* Max_Distance_To_Polygon.h */,
+				EEA81A5B2683B00C00D327D9 /* Max_Radius_Of_Space.cpp */,
+				EEA81A612683B00C00D327D9 /* Max_Radius_Of_Space.h */,
+				EEA81A392683A86E00D327D9 /* Print_Info.cpp */,
+				EEA81A402683A86E00D327D9 /* Print_Info.h */,
+				EEA81A3C2683A86E00D327D9 /* Read_Framework_Parameters.cpp */,
+				EEA81A3E2683A86E00D327D9 /* Read_Framework_Parameters.h */,
+				EEA81A3A2683A86E00D327D9 /* Read_Input.cpp */,
+				EEA81A3F2683A86E00D327D9 /* Read_Input.h */,
+				EEA81A602683B00C00D327D9 /* Removing_Polygons.cpp */,
+				EEA81A562683B00C00D327D9 /* Removing_Polygons.h */,
+				EEA81A762683B12200D327D9 /* Scale_Drawing.cpp */,
+				EEA81A792683B12200D327D9 /* Scale_Drawing.h */,
+				EEA81A622683B00C00D327D9 /* Surrounding_Cloud.cpp */,
+				EEA81A582683B00C00D327D9 /* Surrounding_Cloud.h */,
+				EEA81A492683AEBB00D327D9 /* Transformation_Matrix.cpp */,
+				EEA81A4C2683AEBB00D327D9 /* Transformation_Matrix.h */,
+				EEA81A522683B00B00D327D9 /* Triangulate_Zones.cpp */,
+				EEA81A5A2683B00C00D327D9 /* Triangulate_Zones.h */,
+				EEA81A502683AF1D00D327D9 /* Voronoi_Zone_Algorithm.cpp */,
+				EEA81A4F2683AF1D00D327D9 /* Voronoi_Zone_Algorithm.h */,
 				EEA81A302683A3DC00D327D9 /* Voronoi_Zones_2D_Main.cpp */,
 			);
 			path = Voronoi_Zones_2D;
@@ -118,7 +238,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA81A7E2683B12200D327D9 /* Bounding_Box.cpp in Sources */,
+				EEA81A6F2683B07500D327D9 /* Compute_Voronoi_Zones.cpp in Sources */,
+				EEA81A512683AF1D00D327D9 /* Voronoi_Zone_Algorithm.cpp in Sources */,
+				EEA81A6B2683B00C00D327D9 /* Removing_Polygons.cpp in Sources */,
+				EEA81A452683A86E00D327D9 /* Input.cpp in Sources */,
+				EEA81A6A2683B00C00D327D9 /* Line_Intersect_Polygon.cpp in Sources */,
+				EEA81A6C2683B00C00D327D9 /* Surrounding_Cloud.cpp in Sources */,
+				EEA81A4E2683AEBB00D327D9 /* Frac_To_Cart_Coords.cpp in Sources */,
+				EEA81A652683B00C00D327D9 /* Generate_Square.cpp in Sources */,
+				EEA81A422683A86E00D327D9 /* Print_Info.cpp in Sources */,
+				EEA81A412683A86E00D327D9 /* Framework_Parameters.cpp in Sources */,
+				EEA81A7C2683B12200D327D9 /* Scale_Drawing.cpp in Sources */,
+				EEA81A442683A86E00D327D9 /* Read_Framework_Parameters.cpp in Sources */,
+				EEA81A7B2683B12200D327D9 /* Colour.cpp in Sources */,
+				EEA81A432683A86E00D327D9 /* Read_Input.cpp in Sources */,
+				EEA81A7D2683B12200D327D9 /* Draw_Voronoi_Zones.cpp in Sources */,
+				EEA81A4D2683AEBB00D327D9 /* Transformation_Matrix.cpp in Sources */,
+				EEA81A642683B00C00D327D9 /* Triangulate_Zones.cpp in Sources */,
+				EEA81A662683B00C00D327D9 /* Max_Distance_To_Polygon.cpp in Sources */,
+				EEA81A482683AE6C00D327D9 /* Initialise_Cell.cpp in Sources */,
+				EEA81A672683B00C00D327D9 /* Max_Radius_Of_Space.cpp in Sources */,
+				EEA81A722683B0A300D327D9 /* B_Poly.cpp in Sources */,
 				EEA81A312683A3DC00D327D9 /* Voronoi_Zones_2D_Main.cpp in Sources */,
+				EEA81A682683B00C00D327D9 /* Dividing_Space.cpp in Sources */,
+				EEA81A692683B00C00D327D9 /* Divide_Polygon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +383,47 @@
 		EEA81A352683A3DC00D327D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/gmp/6.2.1/include,
+					/usr/local/Cellar/boost/1.74.0/include,
+					/usr/local/Cellar/cgal/5.1.1/include,
+					/usr/local/Cellar/gemmi/include,
+					/usr/local/Cellar/gemmi/third_party,
+					/usr/local/Cellar/mpfr/4.1.0/include,
+					/usr/local/Cellar/opencv/4.3.0_4/include/opencv4,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/gmp/6.2.1/lib,
+					/usr/local/Cellar/boost/1.74.0/lib,
+					/usr/local/Cellar/cgal/5.1.1/lib,
+					/usr/local/Cellar/mpfr/4.1.0/lib,
+					/usr/local/Cellar/opencv/4.3.0_4/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lboost_filesystem",
+					"-lboost_system",
+					"-lgmp",
+					"-lmpfr",
+					"-lboost_iostreams",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +431,47 @@
 		EEA81A362683A3DC00D327D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/gmp/6.2.1/include,
+					/usr/local/Cellar/boost/1.74.0/include,
+					/usr/local/Cellar/cgal/5.1.1/include,
+					/usr/local/Cellar/gemmi/include,
+					/usr/local/Cellar/gemmi/third_party,
+					/usr/local/Cellar/mpfr/4.1.0/include,
+					/usr/local/Cellar/opencv/4.3.0_4/include/opencv4,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/gmp/6.2.1/lib,
+					/usr/local/Cellar/boost/1.74.0/lib,
+					/usr/local/Cellar/cgal/5.1.1/lib,
+					/usr/local/Cellar/mpfr/4.1.0/lib,
+					/usr/local/Cellar/opencv/4.3.0_4/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lboost_filesystem",
+					"-lboost_system",
+					"-lgmp",
+					"-lmpfr",
+					"-lboost_iostreams",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
